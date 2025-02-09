@@ -5,7 +5,9 @@ import { author, displayName, homepage } from "../../package.json"
 export const Welcome = () => {
   const authorName = author.split("<")[0]
   const authorUrl = author.split("(")[1].slice(0, -1)
-  const email = /<(.+)>/.exec(author)[1]
+  const emailMatch = /<(.+)>/.exec(author)
+  const email = emailMatch ? emailMatch[1] : ""
+
   return (
     <>
       <div className="card card-compact">

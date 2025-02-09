@@ -8,7 +8,7 @@ export interface HeaderProps {
 
 export const Header = ({ title }: HeaderProps) => {
   return (
-    <header className="navbar bg-primary text-primary-content">
+    <header className="navbar bg-neutral text-neutral-content">
       <div className="flex-none">
         <a className="btn btn-square btn-ghost">
           <svg
