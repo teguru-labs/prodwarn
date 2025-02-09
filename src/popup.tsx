@@ -6,10 +6,10 @@ import "~style.css"
 
 function IndexPopup() {
   return (
-    <div className="artboard phone-1 flex flex-col">
+    <div className="tegu-artboard tegu-phone-1 tegu-flex tegu-flex-col">
       <Header />
 
-      <main className="flex-1">
+      <main className="tegu-flex-1">
         <Welcome />
       </main>
 

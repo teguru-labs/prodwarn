@@ -8,11 +8,11 @@ export const Footer = () => {
   const authorUrl = author.split("(")[1].slice(0, -1)
 
   return (
-    <footer className="footer footer-center bg-base-200 text-base-content p-4">
-      <aside className="text-xs">
+    <footer className="tegu-footer tegu-footer-center tegu-bg-base-200 tegu-text-base-content tegu-p-4">
+      <aside className="tegu-text-xs">
         <a
           href={authorUrl}
-          className="link link-hover"
+          className="tegu-link tegu-link-hover"
           target="_blank"
           rel="noopener noreferrer">
           {authorName} © {year} - All Right Reserved

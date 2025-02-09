@@ -8,12 +8,12 @@ export interface HeaderProps {
 
 export const Header = ({ title }: HeaderProps) => {
   return (
-    <header className="navbar bg-neutral text-neutral-content">
-      <div className="flex-none">
-        <a className="btn btn-square btn-ghost">
+    <header className="tegu-navbar tegu-bg-neutral tegu-text-neutral-content">
+      <div className="tegu-flex-none">
+        <a className="tegu-btn tegu-btn-square tegu-btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="tegu-h-5 tegu-w-5"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor">
@@ -27,20 +27,20 @@ export const Header = ({ title }: HeaderProps) => {
         </a>
       </div>
 
-      <div className="flex-1">
-        <a className="btn btn-ghost text-xl">
+      <div className="tegu-flex-1">
+        <a className="tegu-btn tegu-btn-ghost tegu-text-xl">
           {title || pkg.displayName}
-          {!title && <span className="text-xs">{pkg.version}</span>}
+          {!title && <span className="tegu-text-xs">{pkg.version}</span>}
         </a>
       </div>
 
-      <div className="flex-none">
-        <a className="btn btn-square btn-ghost">
+      <div className="tegu-flex-none">
+        <a className="tegu-btn tegu-btn-square tegu-btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            className="inline-block h-5 w-5 stroke-current">
+            className="tegu-inline-block tegu-h-5 tegu-w-5 tegu-stroke-current">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"

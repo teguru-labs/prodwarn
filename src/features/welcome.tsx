@@ -10,19 +10,20 @@ export const Welcome = () => {
 
   return (
     <>
-      <div className="card card-compact">
-        <div className="card-body">
-          <h2 className="card-title">Welcome to Prodwarn!</h2>
+      <div className="tegu-card tegu-card-compact">
+        <div className="tegu-card-body">
+          <h2 className="tegu-card-title">Welcome to Prodwarn!</h2>
           <p>
             One fine day, you accidentally run tests on the production system
             instead of the development or testing environment. And just like
             that, an incident is born.
           </p>
           <p>
-            <span className="text-primary">{displayName}</span>, developed by{" "}
+            <span className="tegu-text-primary">{displayName}</span>, developed
+            by{" "}
             <a
               href={authorUrl}
-              className="link link-hover link-primary"
+              className="tegu-link tegu-link-hover tegu-link-primary"
               target="_blank"
               rel="noopener noreferrer">
               {authorName}
@@ -34,7 +35,7 @@ export const Welcome = () => {
           <p>
             As an open-source project, it welcomes contributions on{" "}
             <a
-              className="link link-hover link-primary"
+              className="tegu-link tegu-link-hover tegu-link-primary"
               href={homepage}
               target="_blank"
               rel="noopener noreferrer">
@@ -43,7 +44,7 @@ export const Welcome = () => {
             . For inquiries or support, contact us at{" "}
             <a
               href={`mailto:${email}`}
-              className="link link-hover link-primary"
+              className="tegu-link tegu-link-hover tegu-link-primary"
               target="_blank"
               rel="noopener noreferrer">
               {email}
@@ -53,8 +54,10 @@ export const Welcome = () => {
         </div>
       </div>
 
-      <div className="text-center mt-2">
-        <a className="btn btn-info btn-sm text-base-100">Let's get started!</a>
+      <div className="tegu-text-center tegu-mt-2">
+        <a className="tegu-btn tegu-btn-info tegu-btn-sm tegu-text-base-100">
+          Let's get started!
+        </a>
       </div>
     </>
   )

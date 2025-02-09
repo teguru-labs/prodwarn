@@ -4,6 +4,7 @@ import daisyui from "daisyui"
 module.exports = {
   content: ["./src/**/*.{tsx,html}"],
   darkMode: "media",
+  prefix: "tegu-",
   plugins: [daisyui],
   daisyui: {
     themes: ["light", "dark"]

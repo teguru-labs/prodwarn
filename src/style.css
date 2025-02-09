@@ -3,5 +3,16 @@
 @tailwind utilities;
 
 .navbar {
-  @apply min-h-14;
+  @apply tegu-min-h-14;
+}
+
+.tegu-warning {
+  @apply tegu-alert tegu-alert-warning;
+  @apply tegu-border-0 tegu-bg-red-500 tegu-text-base-100 tegu-text-2xl;
+  @apply tegu-fixed tegu-bottom-0 tegu-left-0;
+}
+
+.tegu-warning-icon {
+  @apply tegu-btn tegu-btn-ghost;
+  @apply tegu-fixed tegu-bottom-6 tegu-left-0 hover:tegu-opacity-10;
 }
