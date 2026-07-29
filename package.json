@@ -24,7 +24,7 @@
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "daisyui": "^4.12.23",
-    "postcss": "8.4.33",
+    "postcss": "8.5.18",
     "prettier": "3.2.4",
     "typescript": "5.3.3"
   },
